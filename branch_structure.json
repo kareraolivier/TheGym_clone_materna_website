@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "ch-desktop",
+    "ch-mobile",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "ch-desktop": "main",
+    "ch-mobile": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "ch-desktop",
+    "ch-mobile",
+    "origin"
+  ]
+}
