@@ -12,8 +12,8 @@
     <title>Materna</title>
 </head>
 
-<body>
-    <nav>
+<body class="m-0 p-0">
+    <nav><div class="hidden lg:block">
         <div class="h-40 w-40 absolute ml-32">
             <?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -146,7 +146,7 @@
             </div>
 
         </div>
-
+</div>
         <div class="bg-red-700 flex justify-start text-white h-16 p-2 gap-4 lg:hidden">
             <div class="flex justify-start gap-2 items-center">
                 <svg class="w-6 h-6" fill="#fffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +194,7 @@
         <div class="p-2 h-screen"
             style="background-image: url(buehne_startseite.svg); background-size: cover; height: 100vh;">
             <div>
-                <div class="grid grid-cols-[20%_auto_10%]">
+                <div class="lg:grid grid-cols-[20%_auto_10%] hidden">
                     <div></div>
                     <div class="h-16 bg-red-700 mr-0 text-white flex gap-4 text-xl justify-between">
                         <div class="flex gap-4 text-xl items-center p-4">
@@ -764,7 +764,7 @@
         </div>
 
     </div>
-    <div class="py-12 px-32 bg-[#3a3e41] text-white grid grid-cols-[auto_20%]">
+    <div class="py-12 px-32 bg-[#3a3e41] text-white hidden lg:grid grid-cols-[auto_20%]">
         <div class="flex gap-2">
             <div class="w-48">
                 <h1 class="font-normal py-4 text-2xl">Portfolio</h1>
